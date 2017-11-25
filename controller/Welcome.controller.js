@@ -13,8 +13,8 @@ sap.ui.define([
 		"use strict";
 
 		return BaseController.extend("jekunauto.ui.erp.controller.Welcome", {
-
-			/**
+ 
+			/** s
 			 * Called when the controller is instantiated.
 			 * @public
 			 */
