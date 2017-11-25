@@ -87,7 +87,7 @@ sap.ui.define([
 			},
 
 			_onTopicOldRouteMatched: function(oEvent) {
-
+ 
 				var sId = oEvent.getParameter("arguments").id;
 				if (sId) {
 					sId = this._trimOldDocSuffix(sId);
@@ -103,7 +103,6 @@ sap.ui.define([
 					aSplit;
 
 				if (sId) {
-
 					aSplit = sId.split("#");
 					if (aSplit.length === 2) {
 						sId = aSplit[0];
